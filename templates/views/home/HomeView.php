@@ -107,7 +107,44 @@
                 </div>
                 <!--/ End Single Course -->
             </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <!-- Single Course -->
+                <div class="single-course">
+                    <!-- Course Head -->
+                    <div class="course-head overlay">
+                        <img src="<?php echo IMAGES.'courses/course3.jpg' ?>" alt="#">
+                        <a href="course-single.html" class="btn white primary">Ver sílabus</a>
+                    </div>
+                    <!-- Course Body -->
+                    <div class="course-body">
+                        <div class="name-price">
+                            <div class="teacher-info">
+                                <img src="<?php echo IMAGES.'profesores/UploadFotoPath%20(9).jpg' ?>" alt="#">
+                                <h4 class="title">Ana Silvia Cori Moron</h4>
+                            </div>
+                            <span class="price">III CICLO</span>
+                        </div>
+                        <h4 class="c-title"><a href="course-single.html">Algoritmos y Programación Paralela</a></h4>
+                        <p>La computación paralela es el uso de múltiples recursos computacionales para resolver un problema.Se distingue de la computación secuencial en que varias operaciones pueden ocurrir simultáneamente.</p>
+                    </div>
+                    <!-- Course Meta -->
+                    <div class="course-meta">
+                        <!-- Course Info -->
+                        <div class="course-info">
+                            <span><i class="fa fa-users"></i>54 Alumnos</span>
+                        </div>
+                    </div>
+                    <!--/ End Course Meta -->
+                </div>
+                <!--/ End Single Course -->
+            </div>
         </div>
+        
+        <!-- Button -->
+        <div class="button text-center mt-5">
+            <a href="<?php echo URL.'curso' ?>" class="btn white primary">Mostrar más</a>
+        </div>
+        <!--/ End Button -->
     </div>
 </section>
 <!--/ End Courses -->
