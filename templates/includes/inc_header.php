@@ -84,7 +84,7 @@
                                         <li><a href="#"><i class="fa fa-clone"></i>ACADÉMICO</a>
                                             <ul class="dropdown">
                                                 <li><a href="<?php echo URL.'docente' ?>">Docentes</a></li>
-                                                <li><a href="teachers.html">Plan de estudio</a></li>
+                                                <li><a href="<?php echo URL.'plan_est' ?>">Plan de estudio</a></li>
                                                 <li><a href="<?php echo URL.'horario' ?>">Horarios</a></li>
                                                 <li><a href="<?php echo URL.'curso' ?>">Cursos</a></li>
                                                 <li><a href="<?php echo URL.'convenio' ?>">Convenios</a></li>
