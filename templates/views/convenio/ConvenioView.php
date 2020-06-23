@@ -372,7 +372,6 @@
                     </div>
                     <!--/ End Single Course -->
                 </div>
-
                 
             </div>
             <!-- Button -->

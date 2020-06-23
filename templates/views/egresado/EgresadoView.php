@@ -52,8 +52,8 @@
                         <div class="single-course">
                             <!-- Course Head -->
                             <div class="course-head overlay">
-                                <img src="<?php echo IMAGES.'egresados/egresado2.jpg' ?>" alt="#">
-                                <a href="<?php echo IMAGES.'egresados/egresado2.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
+                                <img src="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" alt="#">
+                                <a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
                             </div>
                             <!-- Course Body -->
                             <div class="course-body">
@@ -63,7 +63,7 @@
                                         <h4 class="title">DOCENTE</h4>
                                     </div>
                                 </div>
-                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado2.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
+                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
                                 <p class="text-center">Ing. en Informática y Sistemas</p>
                             </div>
                         </div>
@@ -74,8 +74,8 @@
                         <div class="single-course">
                             <!-- Course Head -->
                             <div class="course-head overlay">
-                                <img src="<?php echo IMAGES.'egresados/egresado3.jpg' ?>" alt="#">
-                                <a href="<?php echo IMAGES.'egresados/egresado3.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
+                                <img src="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" alt="#">
+                                <a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
                             </div>
                             <!-- Course Body -->
                             <div class="course-body">
@@ -85,7 +85,7 @@
                                         <h4 class="title">DOCENTE</h4>
                                     </div>
                                 </div>
-                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado3.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
+                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
                                 <p class="text-center">Ing. en Informática y Sistemas</p>
                             </div>
                         </div>
@@ -96,8 +96,8 @@
                         <div class="single-course">
                             <!-- Course Head -->
                             <div class="course-head overlay">
-                                <img src="<?php echo IMAGES.'egresados/egresado4.jpg' ?>" alt="#">
-                                <a href="<?php echo IMAGES.'egresados/egresado4.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
+                                <img src="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" alt="#">
+                                <a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
                             </div>
                             <!-- Course Body -->
                             <div class="course-body">
@@ -107,7 +107,7 @@
                                         <h4 class="title">DOCENTE</h4>
                                     </div>
                                 </div>
-                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado4.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
+                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
                                 <p class="text-center">Ing. en Informática y Sistemas</p>
                             </div>
                         </div>
@@ -118,8 +118,8 @@
                         <div class="single-course">
                             <!-- Course Head -->
                             <div class="course-head overlay">
-                                <img src="<?php echo IMAGES.'egresados/egresado6.jpg' ?>" alt="#">
-                                <a href="<?php echo IMAGES.'egresados/egresado6.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
+                                <img src="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" alt="#">
+                                <a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
                             </div>
                             <!-- Course Body -->
                             <div class="course-body">
@@ -129,7 +129,7 @@
                                         <h4 class="title">DOCENTE</h4>
                                     </div>
                                 </div>
-                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado6.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
+                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
                                 <p class="text-center">Ing. en Informática y Sistemas</p>
                             </div>
                         </div>
@@ -140,8 +140,8 @@
                         <div class="single-course">
                             <!-- Course Head -->
                             <div class="course-head overlay">
-                                <img src="<?php echo IMAGES.'egresados/egresado7.jpg' ?>" alt="#">
-                                <a href="<?php echo IMAGES.'egresados/egresado7.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
+                                <img src="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" alt="#">
+                                <a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
                             </div>
                             <!-- Course Body -->
                             <div class="course-body">
@@ -151,7 +151,7 @@
                                         <h4 class="title">DOCENTE</h4>
                                     </div>
                                 </div>
-                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado7.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
+                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
                                 <p class="text-center">Ing. en Informática y Sistemas</p>
                             </div>
                         </div>
@@ -164,8 +164,8 @@
                         <div class="single-course">
                             <!-- Course Head -->
                             <div class="course-head overlay">
-                                <img src="<?php echo IMAGES.'egresados/egresado8.jpg' ?>" alt="#">
-                                <a href="<?php echo IMAGES.'egresados/egresado8.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
+                                <img src="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" alt="#">
+                                <a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
                             </div>
                             <!-- Course Body -->
                             <div class="course-body">
@@ -175,7 +175,7 @@
                                         <h4 class="title">DOCENTE</h4>
                                     </div>
                                 </div>
-                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado8.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
+                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
                                 <p class="text-center">Ing. en Informática y Sistemas</p>
                             </div>
                         </div>
@@ -186,8 +186,8 @@
                         <div class="single-course">
                             <!-- Course Head -->
                             <div class="course-head overlay">
-                                <img src="<?php echo IMAGES.'egresados/egresado9.jpg' ?>" alt="#">
-                                <a href="<?php echo IMAGES.'egresados/egresado9.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
+                                <img src="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" alt="#">
+                                <a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
                             </div>
                             <!-- Course Body -->
                             <div class="course-body">
@@ -197,7 +197,7 @@
                                         <h4 class="title">DOCENTE</h4>
                                     </div>
                                 </div>
-                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado9.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
+                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
                                 <p class="text-center">Ing. en Informática y Sistemas</p>
                             </div>
                         </div>
@@ -208,8 +208,8 @@
                         <div class="single-course">
                             <!-- Course Head -->
                             <div class="course-head overlay">
-                                <img src="<?php echo IMAGES.'egresados/egresado10.jpg' ?>" alt="#">
-                                <a href="<?php echo IMAGES.'egresados/egresado10.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
+                                <img src="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" alt="#">
+                                <a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black" class="btn white primary">Ver Egresado</a>
                             </div>
                             <!-- Course Body -->
                             <div class="course-body">
@@ -219,7 +219,7 @@
                                         <h4 class="title">DOCENTE</h4>
                                     </div>
                                 </div>
-                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado10.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
+                                <h4 class="c-title text-center"><a href="<?php echo IMAGES.'egresados/egresado1.jpg' ?>" target="black">Edgar Romero Mejía</a></h4>
                                 <p class="text-center">Ing. en Informática y Sistemas</p>
                             </div>
                         </div>
