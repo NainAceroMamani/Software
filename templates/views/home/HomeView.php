@@ -655,7 +655,19 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-12" style="margin:auto">
+
+            <div class="col-lg-6 col-md-6 col-12">
+                <!-- Single Course -->
+                <div class="single-course">
+                    <!-- Course Body -->
+                    <div class="course-body">
+                    <img src="<?php echo IMAGES.'grafica.png' ?>" alt="">
+                      </div>
+                </div>
+                <!--/ End Single Course -->
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12">
                 <!-- Single Course -->
                 <div class="single-course">
                     <!-- Course Body -->

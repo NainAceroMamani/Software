@@ -57,6 +57,9 @@
 
         var options = {
             animationEnabled: true,  
+            title: {
+                text: "Nuestros Egresados"
+            },
             axisX: {
                 valueFormatString: "YYYY"
             },
