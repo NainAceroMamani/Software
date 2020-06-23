@@ -661,7 +661,7 @@
                 <div class="single-course">
                     <!-- Course Body -->
                     <div class="course-body">
-                    <img src="<?php echo IMAGES.'grafica.png' ?>" alt="">
+                    <img src="<?php echo IMAGES.'grafica.PNG' ?>" alt="">
                       </div>
                 </div>
                 <!--/ End Single Course -->
