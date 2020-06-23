@@ -99,11 +99,11 @@
                                         </li>
                                         <li><a href="#"><i class="fa fa-clone"></i>INFRAESTRUCTURA</a>
                                             <ul class="dropdown">
-                                                <li><a href="teachers.html">Laboratorios</a></li>
-                                                <li><a href="teachers.html">Aulas</a></li>
-                                                <li><a href="teachers.html">Biblioteca</a></li>
-                                                <li><a href="teachers.html">Aula Informática</a></li>
-                                                <li><a href="teachers.html">Oficinas Administrativas</a></li>
+                                                <li><a href="<?php echo URL.'laboratorio' ?>">Laboratorios</a></li>
+                                                <li><a href="<?php echo URL.'aula' ?>">Aulas</a></li>
+                                                <li><a href="<?php echo URL.'biblioteca' ?>">Biblioteca</a></li>
+                                                <li><a href="<?php echo URL.'informativa' ?>">Aula Informática</a></li>
+                                                <li><a href="<?php echo URL.'oficina' ?>">Oficinas Administrativas</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="<?php echo URL.'noticia' ?>"><i class="fa fa-address-book"></i>Noticias</a> </li>
