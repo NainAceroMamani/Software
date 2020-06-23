@@ -388,30 +388,33 @@
                         </div>
                     </div>
                     <!-- End Single Event -->
+
                     <!-- Single Event -->
                     <div class="single-event">
                         <div class="event-date">
-                            <p>25<span>April</span></p>
+                            <p>30<span>Junio</span></p>
                         </div>
                         <div class="event-content">
-                            <h3 class="event-title"><a href="event-single.html">Internation Web Developments Awards!</a></h3>
+                            <h3 class="event-title"><a href="<?php echo URL.'noticia' ?>">Bienvenida a los cachimbos 2020</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo</p>
-                            <span class="entry-date-time"><i class="fa fa-clock-o" aria-hidden="true"></i> 05:23 AM - 09:23 AM </span>
+                            <span class="entry-date-time"><i class="fa fa-clock-o" aria-hidden="true"></i> 04:30 PM - 8:30 PM </span>
                         </div>
                     </div>
                     <!-- End Single Event -->
+
                     <!-- Single Event -->
                     <div class="single-event">
                         <div class="event-date">
-                            <p>05<span>Jun</span></p>
+                            <p>30<span>Junio</span></p>
                         </div>
                         <div class="event-content">
-                            <h3 class="event-title"><a href="event-single.html">Actualized Network Seminar</a></h3>
+                            <h3 class="event-title"><a href="<?php echo URL.'noticia' ?>">Bienvenida a los cachimbos 2020</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo</p>
-                            <span class="entry-date-time"><i class="fa fa-clock-o" aria-hidden="true"></i> 05:23 AM - 09:23 AM </span>
+                            <span class="entry-date-time"><i class="fa fa-clock-o" aria-hidden="true"></i> 04:30 PM - 8:30 PM </span>
                         </div>
                     </div>
                     <!-- End Single Event -->
+                    
                 </div>
 
                 <!-- Modal -->
@@ -689,18 +692,18 @@
             format: 'MM dd, yyyy',
             calendarEvents: [{
                 id: 'd8jai7s',
-                name: "Author's Birthday",
+                name: "Bienvenida Cachimbos 2020",
                 date: "February/15/2020",
                 type: "birthday",
                 everyYear: true
             }, {
                 id: 'sKn89hi',
-                name: "Evo Calendar time!",
+                name: "Cachimbos 2020",
                 date: new Date(),
                 type: "event"
             }, {
                 id: 'in8bha4',
-                name: "Evo Calendar time!",
+                name: "Congreso 2020",
                 date: new Date(),
                 type: "holiday"
             }]

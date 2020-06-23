@@ -20,8 +20,8 @@
     </div>
     <!--/ End Breadcrumb -->
    
-   <!-- Courses -->
-   <section class="courses archive section">
+    <!-- Courses -->
+    <section class="courses archive section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-12">
@@ -30,7 +30,7 @@
                         <!-- Course Head -->
                         <div class="course-head overlay">
                             <img src="<?php echo IMAGES.'courses/course3.jpg' ?>" alt="#">
-                            <a href="#" target="black" class="btn white primary">Ver Noticia</a>
+                            <a href="<?php echo UPLOADS.'tesis/tesis1.pdf' ?>" target="black" class="btn white primary">Ver Tesis</a>
                         </div>
                         <!-- Course Body -->
                         <div class="course-body">
@@ -39,9 +39,9 @@
                                     <img src="<?php echo IMAGES.'logoEsis.png' ?>" alt="#">
                                     <h4 class="title">Administrativo</h4>
                                 </div>
-                                <span class="price">Linea de Investigación </span>
+                                <span class="price">2019 </span>
                             </div>
-                            <h4 class="c-title"><a href="#" target="black">Ingeniería y Tecnología del Software.</a></h4>
+                            <h4 class="c-title"><a href="<?php echo UPLOADS.'tesis/tesis1.pdf' ?>" target="black">Análisis de las estrategias de desarrollo e implementación de los Sistemas Integrados de Administración Financiera SIAF-SP en Latinoamérica</a></h4>
                             <p>El campo de investigación se sitúa dentro de las líneas actuales en el campo de las tecnologías de la Información y la industria de producción de software.</p>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                         <!-- Course Head -->
                         <div class="course-head overlay">
                             <img src="<?php echo IMAGES.'courses/course3.jpg' ?>" alt="#">
-                            <a href="#" target="black" class="btn white primary">Ver Noticia</a>
+                            <a href="<?php echo UPLOADS.'tesis/tesis2.pdf' ?>" target="black" class="btn white primary">Ver Tesis</a>
                         </div>
                         <!-- Course Body -->
                         <div class="course-body">
@@ -63,9 +63,9 @@
                                     <img src="<?php echo IMAGES.'logoEsis.png' ?>" alt="#">
                                     <h4 class="title">Administrativo</h4>
                                 </div>
-                                <span class="price">Linea de Investigación </span>
+                                <span class="price">2019 </span>
                             </div>
-                            <h4 class="c-title"><a href="#" target="black">Informática Industrial y Tecnología Electrónica.</a></h4>
+                            <h4 class="c-title"><a href="<?php echo UPLOADS.'tesis/tesis2.pdf' ?>" target="black">Entidad conversacional de inteligencia artificial y calidad del servicio percibido por estudiantes de la Universidad José Carlos Mariátegui Filial Tacna, 2018 – II</a></h4>
                             <p>El campo de investigación se sitúa dentro de las líneas actuales en el campo de las tecnologías de la Información y la industria de producción de software.</p>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                         <!-- Course Head -->
                         <div class="course-head overlay">
                             <img src="<?php echo IMAGES.'courses/course3.jpg' ?>" alt="#">
-                            <a href="#" target="black" class="btn white primary">Ver Noticia</a>
+                            <a href="<?php echo UPLOADS.'tesis/tesis3.pdf' ?>" target="black" class="btn white primary">Ver Tesis</a>
                         </div>
                         <!-- Course Body -->
                         <div class="course-body">
@@ -87,9 +87,9 @@
                                     <img src="<?php echo IMAGES.'logoEsis.png' ?>" alt="#">
                                     <h4 class="title">Administrativo</h4>
                                 </div>
-                                <span class="price">Linea de Investigación </span>
+                                <span class="price">2019 </span>
                             </div>
-                            <h4 class="c-title"><a href="#" target="black">Tecnología de Computadores: aplicaciones médicas e industriales</a></h4>
+                            <h4 class="c-title"><a href="<?php echo UPLOADS.'tesis/tesis3.pdf' ?>" target="black">Evaluación del proceso de cálculo de la radiación ionizante en el personal del Instituto Peruano de Energía Nuclear usando un Sistema Web de tratamiento administración de dosis, Lima 2018</a></h4>
                             <p>El campo de investigación se sitúa dentro de las líneas actuales en el campo de las tecnologías de la Información y la industria de producción de software.</p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                         <!-- Course Head -->
                         <div class="course-head overlay">
                             <img src="<?php echo IMAGES.'courses/course3.jpg' ?>" alt="#">
-                            <a href="#" target="black" class="btn white primary">Ver Noticia</a>
+                            <a href="<?php echo UPLOADS.'tesis/tesis4.pdf' ?>" target="black" class="btn white primary">Ver Tesis</a>
                         </div>
                         <!-- Course Body -->
                         <div class="course-body">
@@ -111,9 +111,9 @@
                                     <img src="<?php echo IMAGES.'logoEsis.png' ?>" alt="#">
                                     <h4 class="title">Administrativo</h4>
                                 </div>
-                                <span class="price">Linea de Investigación </span>
+                                <span class="price">2019 </span>
                             </div>
-                            <h4 class="c-title"><a href="#" target="black">Lógica, Computación e Inteligencia.</a></h4>
+                            <h4 class="c-title"><a href="<?php echo UPLOADS.'tesis/tesis4.pdf' ?>" target="black">Influencia del subempleo y desempleo en la pobreza monetaria de la población urbana de Tacna, periodo 2012 – 2018</a></h4>
                             <p>El campo de investigación se sitúa dentro de las líneas actuales en el campo de las tecnologías de la Información y la industria de producción de software.</p>
                         </div>
                     </div>
