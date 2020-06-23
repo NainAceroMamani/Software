@@ -92,9 +92,9 @@
                                         </li>
                                         <li><a href="#"><i class="fa fa-clone"></i>INVESTIGACIÓN</a>
                                             <ul class="dropdown">
-                                                <li><a href="teachers.html">Líneas de Investigación</a></li>
-                                                <li><a href="teachers.html">Proyectos de Investigación</a></li>
-                                                <li><a href="teachers.html">Repositorio de Tesis</a></li>
+                                                <li><a href="<?php echo URL.'lin_inv' ?>">Líneas de Investigación</a></li>
+                                                <li><a href="<?php echo URL.'rep_proy' ?>">Proyectos de Investigación</a></li>
+                                                <li><a href="<?php echo URL.'tesis' ?>">Repositorio de Tesis</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#"><i class="fa fa-clone"></i>INFRAESTRUCTURA</a>
