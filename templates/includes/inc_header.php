@@ -101,7 +101,7 @@
                     <div class="col-lg-3 col-md-3 col-12">
                         <!-- Logo -->
                         <div class="logo imglogo">
-                            <a href="index.html"><img src="<?php echo IMAGES.'logo.png' ?>" alt="#"></a>
+                            <a href="<?php echo URL ?>"><img src="<?php echo IMAGES.'logo.png' ?>" alt="#"></a>
                         </div>
                         <!--/ End Logo -->
                         <div class="mobile-menu"></div>
@@ -140,7 +140,7 @@
                                             </ul>
                                         </li>
                                         <li><a href="<?php echo URL.'noticia' ?>"><i class="fa fa-bullhorn"></i>Noticias</a> </li>
-                                        <li><a href="https://www.ciistacna.com/2020/" target="black"><i class="fa fa-suitcase"></i>Congreso</a> </li>
+                                        <li><a href="<?php echo URL.'congreso' ?>" target="black"><i class="fa fa-suitcase"></i>Congreso</a> </li>
                                     </ul>
                                     <!-- End Main Menu -->
                                 </div>

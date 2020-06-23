@@ -20,10 +20,11 @@ Version:	1.0
 /* Header Inner */
 
 .header .header-inner {
-    background-image: url('images/bg-pattern1.png');
+    /* background-image: url('images/bg-pattern1.png'); */
     background-repeat: repeat-y;
     background-position: center;
     position: relative;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
 }
 
 .header .header-inner::before {
@@ -36,7 +37,7 @@ Version:	1.0
 
 .header .logo {
     float: left;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .header .logo a {
@@ -59,7 +60,6 @@ Version:	1.0
 
 .header .navbar {
     background: none;
-    box-shadow: none;
     border: none;
     position: relative;
     padding: 0;
@@ -74,7 +74,7 @@ Version:	1.0
 .header .nav li {
     float: left;
     position: relative;
-    margin-right: 25px;
+    margin-right: 15px;
 }
 
 .header .nav li:last-child {
@@ -158,9 +158,9 @@ Version:	1.0
     left: 0;
     z-index: 99;
     opacity: 0;
-    -webkit-box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -320,13 +320,18 @@ Version:	1.0
 	Slider CSS 
 =================================*/
 
+
+/*===============================
+	Hero Area CSS 
+=================================*/
+
 .home-slider {
     overflow: hidden;
 }
 
 .home-slider,
 .home-slider .single-slider {
-    height: 660px;
+    height: 35vw;
 }
 
 .home-slider .single-slider::before {
@@ -335,7 +340,7 @@ Version:	1.0
 }
 
 .home-slider .slider-image {
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
@@ -346,45 +351,6 @@ Version:	1.0
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-}
-
-
-/* Slider Zoom Effect */
-
-@-webkit-keyframes zoom {
-    from {
-        -webkit-transform: scale(1, 1);
-    }
-    to {
-        -webkit-transform: scale(1.2, 1.2);
-    }
-}
-
-@-moz-keyframes zoom {
-    from {
-        -moz-transform: scale(1, 1);
-    }
-    to {
-        -moz-transform: scale(1.2, 1.2);
-    }
-}
-
-@-o-keyframes zoom {
-    from {
-        -o-transform: scale(1, 1);
-    }
-    to {
-        -o-transform: scale(1.2, 1.2);
-    }
-}
-
-@keyframes zoom {
-    from {
-        transform: scale(1, 1);
-    }
-    to {
-        transform: scale(1.2, 1.2);
-    }
 }
 
 .home-slider .owl-item.active .slider-image {
@@ -442,6 +408,59 @@ Version:	1.0
 }
 
 
+/* Slider Meta */
+
+.home-slider .owl-carousel .owl-nav div {
+    height: 85;
+    width: 5vw;
+    line-height: 80px;
+    top: 50%;
+    color: #fff;
+    font-size: 4vw;
+    position: absolute;
+    border: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin: -40px 0 0 0;
+    border-radius: 0px;
+    padding: 0;
+    transform: translateY(-50%);
+}
+
+.home-slider:hover .owl-carousel .owl-nav div {
+    opacity: 1;
+    visibility: visible;
+}
+
+.home-slider .owl-carousel .owl-nav div:hover {
+    background: rgba(255, 255, 255, 0.685);
+    border-color: transparent;
+}
+
+.home-slider .owl-carousel .owl-nav .owl-prev {
+    left: 0;
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    transform: translateX(-100px);
+}
+
+.home-slider:hover .owl-carousel .owl-nav .owl-prev {
+    transform: translateX(0px);
+}
+
+.home-slider .owl-carousel .owl-nav .owl-next {
+    -webkit-transform: translateX(100px);
+    -moz-transform: translateX(100px);
+    transform: translateX(100px);
+    right: 0;
+}
+
+.home-slider:hover .owl-carousel .owl-nav .owl-next {
+    transform: translateX(0px);
+}
+
+
 /* Slider Animation */
 
 .home-slider .owl-item.active .slider-title {
@@ -455,6 +474,11 @@ Version:	1.0
 .home-slider .owl-item.active .button {
     animation: fadeInUp 1s both 1.5s;
 }
+
+
+/*===============================
+	End Hero Area CSS 
+=================================*/
 
 
 /*===============================
@@ -564,7 +588,7 @@ Version:	1.0
     border-radius: 100%;
     display: inline-block;
     border: 4px solid #fff;
-    float: left;
+    /* float: left; */
     -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
@@ -626,10 +650,10 @@ Version:	1.0
 }
 
 .courses .price::before {
-    position: ;
+    /* position: ; */
     position: absolute;
     left: 0;
-    top: -;
+    /* top: -; */
     content: "";
     border-left: 15px solid #fff;
     border-bottom: 15px solid transparent;
@@ -769,7 +793,7 @@ Version:	1.0
 =================================*/
 
 .features {
-    background-image: url('images/feature-bg.jpg');
+    /* background-image: url('images/feature-bg.jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -860,18 +884,18 @@ Version:	1.0
 =================================*/
 
 .register-today {
-    background-image: url('images/register-bg.jpg');
+    /* background-image: url('images/register-bg.jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .register-today.overlay::before {
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .register-today .course-countdown {
-    margin: 130px 0;
+    margin: 15px 0;
 }
 
 .register-today .coming-course {
@@ -880,15 +904,15 @@ Version:	1.0
 
 .register-today .coming-course h2 {
     display: block;
-    font-size: 50px;
+    font-size: 35px;
     color: #fff;
     text-align: center;
 }
 
 .register-today .coming-course h2 span {
     display: block;
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 25px;
     color: #eee;
 }
 
@@ -903,7 +927,7 @@ Version:	1.0
 
 .register-today .coming-time {
     background: rgba(0, 0, 0, 0.6);
-    padding: 30px;
+    padding: 15px;
 }
 
 .register-today .cdown {
@@ -1055,7 +1079,9 @@ Version:	1.0
     color: #555;
 }
 
-.register-today .form {}
+.register-today .form {
+    font-size: large;
+}
 
 .register-today .form-group {
     position: relative;
@@ -1064,22 +1090,36 @@ Version:	1.0
 
 .register-today .form-group i {
     position: absolute;
+    margin-left: 4px;
     left: 0;
-    top: 20px;
+    top: 18px;
     z-index: 1;
 }
 
-.register-today .form-group input,
-.register-today .nice-select {
+.register-today .form-group input {
     margin: 0;
     width: 100%;
-    height: 55px;
+    /* height: 55px; */
     color: #888;
-    font-size: 14px;
+    font-size: 1rem;
     box-shadow: none;
     text-shadow: none;
-    border: none;
-    border-bottom: 1px solid rgba(204, 204, 204, 0.45);
+    border-radius: 0px;
+    padding-left: 25px;
+    /* line-height: 55px; */
+    font-weight: 500;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.register-today select {
+    width: 100%;
+    /* height: 55px; */
+    color: #888;
+    font-size: 1rem;
+    box-shadow: none;
+    text-shadow: none;
     border-radius: 0px;
     padding-left: 25px;
     line-height: 55px;
@@ -1089,14 +1129,9 @@ Version:	1.0
     transition: all 0.3s ease 0s;
 }
 
-.register-today .nice-select {
-    margin-bottom: 15px;
-    padding: 0 35px 0 25px;
-    position: relative;
-}
-
 .register-today .form-group .list {
     z-index: 3;
+    border: none;
     border-radius: 0px;
     border-top: 2px solid;
 }
@@ -1110,7 +1145,7 @@ Version:	1.0
     padding: 0;
     border-radius: 0px;
     padding-left: 25px;
-    padding-top: 10px;
+    padding-top: 14px;
     height: 158px;
     color: #888;
 }
@@ -1349,6 +1384,155 @@ Version:	1.0
 
 /*===============================
 	End Teachers CSS 
+=================================*/
+
+
+/*===============================
+	Image Gallery CSS
+=================================*/
+
+.image-gallery {
+    background: #fff;
+}
+
+
+/* Gallery Menu */
+
+.image-gallery .gallery-nav {
+    text-align: center;
+    margin: 30px 0 50px;
+    line-height: initial;
+}
+
+.image-gallery #gallery-menu {
+    display: inline-block;
+    margin: 0;
+}
+
+.image-gallery #gallery-menu li {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #fff;
+    background: #20232E;
+    margin: 0 10px 0 0;
+    border-radius: 0px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    padding: 14px 25px;
+}
+
+.image-gallery #gallery-menu li:last-child {
+    margin: 0;
+}
+
+.image-gallery #gallery-menu li.active,
+.image-gallery #gallery-menu li:hover {
+    border-color: transparent;
+    color: #fff;
+}
+
+.image-gallery .cbp-filter-counter {
+    position: relative;
+    color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    background: #20232E;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    line-height: 19px;
+    border: 1px solid transparent;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.image-gallery .cbp-filter-counter:before,
+.image-gallery .cbp-filter-counter:after {
+    display: none;
+}
+
+.image-gallery .gallery-nav li.active .cbp-filter-counter,
+.image-gallery .gallery-nav li:hover .cbp-filter-counter {
+    color: #fff;
+    border-color: #f8f8f8;
+}
+
+.image-gallery .gallery-single {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+}
+
+.image-gallery .gallery-single img {
+    width: 100%;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.image-gallery .gallery-single:hover img {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.image-gallery .gallery-hover {
+    text-align: center;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.95);
+    width: 100%;
+    padding: 12px 0;
+    bottom: 0%;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    transform: translateY(100px);
+}
+
+.image-gallery .gallery-single:hover .gallery-hover {
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.image-gallery .gallery-hover h4 {
+    color: #252525;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.image-gallery .p-button .btn {
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0;
+    margin-right: 5px;
+    font-size: 14px;
+    background: #20232E;
+}
+
+.image-gallery .p-button .btn:hover {
+    border-color: #ccc;
+    color: #fff;
+}
+
+.image-gallery .p-button .btn:last-child {
+    margin: 0;
+}
+
+
+/*===============================
+	End Image Gallery CSS
 =================================*/
 
 
@@ -1898,7 +2082,7 @@ Version:	1.0
     text-align: center;
     font-size: 13px;
     line-height: 32px;
-    float: right;
+    /* float: right; */
     background: #f8f8f8;
     color: #555;
     position: absolute;
@@ -1915,7 +2099,7 @@ Version:	1.0
 /* Subscribe */
 
 .main-sidebar .subscribe {
-    background-image: url('images/feature1.jpg');
+    /* background-image: url('images/feature1.jpg'); */
     background-position: center;
     background-repeat: no-repeat;
     padding: 30px;
@@ -2029,8 +2213,7 @@ Version:	1.0
     background: #f8f8f8;
 }
 
-.faqs .faq-image,
-.faqs .faq-main {
+.faqs .faq-image, .faqs .faq-main {
     margin-top: 30px;
 }
 
@@ -2155,8 +2338,7 @@ Version:	1.0
     margin: 0;
 }
 
-.contact .form-head .form-group input,
-.contact .form-head .form-group textarea {
+.contact .form-head .form-group input, .contact .form-head .form-group textarea {
     height: 55px;
     width: 100%;
     padding-left: 40px;
@@ -2347,7 +2529,7 @@ Version:	1.0
     background: rgba(255, 255, 255, 0.15);
     display: inline-block;
     padding: 10px 25px;
-    float: right;
+    /* float: right; */
 }
 
 .breadcrumbs ul li {
@@ -2399,7 +2581,7 @@ Version:	1.0
 
 .footer .footer-top {
     padding: 60px 0 90px;
-    background-image: url('images/clients-bg.jpg');
+    /* background-image: url('images/clients-bg.jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2409,8 +2591,7 @@ Version:	1.0
     opacity: 0.9;
 }
 
-.footer a,
-.footer p {
+.footer a, .footer p {
     font-weight: 400;
     color: #ccc;
     line-height: 22px;
@@ -2469,16 +2650,15 @@ Version:	1.0
     margin: 0;
     padding: 0;
     border-radius: 100%;
-    font-size: 13px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     background: rgba(255, 255, 255, 0.1);
     color: #fff;
 }
 
-.footer .social li:hover a,
-.footer .social li.active a {
+.footer .social li:hover a, .footer .social li.active a {
     color: #fff;
 }
 
@@ -2586,6 +2766,4 @@ Version:	1.0
 
 /*=============================
 	End Footer CSS
-===============================*/
-
 ===============================*/
