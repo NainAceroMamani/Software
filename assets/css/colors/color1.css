@@ -7,7 +7,6 @@
 .header .nav li.active a,
 .header .nav li .dropdown li:hover a,
 .header .nav li .dropdown li .dropdown.submenu li:hover a,
-.home-slider .owl-carousel .owl-nav div:hover,
 .course-search .form-group i,
 .courses .course-body .c-title:hover a,
 .courses .rattings li,
@@ -53,14 +52,13 @@
 .pricing .single-table:hover .bg-icon i,
 .footer .list li a:hover,
 .footer .copyright a {
-    color: #4B8ADC;
+    color: #1281E8;
 }
 
 .header .nav li a::before,
 .header .nav li a::after,
 .header .search-form button,
 .home-slider .slider-title,
-.home-slider .owl-carousel .owl-nav div,
 .course-search .list li:hover,
 .courses .teacher-info .title,
 .courses .price,
@@ -108,14 +106,22 @@
 .footer .social li.active a,
 .footer .opening-times .list li .value.off,
 .footer .newsletter .button {
-    background: #4B8ADC;
+    background: #1281E8;
 }
 
 .header .nav li .dropdown,
 .header .nav li .dropdown.submenu,
 .course-search .form-group .list,
 .register-today .form-group .list {
-    border-top-color: #4B8ADC;
+    border-top-color: #1281E8;
+}
+
+.home-slider .owl-carousel .owl-nav div {
+    background: rgba(47, 153, 252, 0.527);
+}
+
+.home-slider .owl-carousel .owl-nav div:hover {
+    color: rgb(11, 133, 247);
 }
 
 .course-search .nice-select:hover:after,
@@ -125,19 +131,19 @@
 .news-single .meta-left .author img,
 .news-single .prev-next li a,
 .pricing .single-table:hover .bg-icon i {
-    border-color: #4B8ADC;
+    border-color: #1281E8;
 }
 
 .courses .teacher-info .title::before {
-    border-bottom-color: #4B8ADC
+    border-bottom-color: #1281E8
 }
 
 .register-today .form-group input:hover,
-.register-today .nice-select:hover,
+.register-today .form-group select:hover,
 .register-today .form-group textarea:hover {
-    border-bottom-color: #4B8ADC;
+    border-color: #1281E8;
 }
 
 .fun-facts .single-fact:hover .icon::after {
-    border-left-color: #4B8ADC;
+    border-left-color: #1281E8;
 }

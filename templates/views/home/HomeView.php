@@ -43,6 +43,9 @@
 <!-- End Modal VISIÓN -->
 
 <!-- Slider Area -->
+<div style="height:80px">
+
+</div>
 <section class="home-slider">
     <div class="slider-active">
         <!-- Single Slider -->
@@ -636,8 +639,44 @@
 </section>
 <!--/ End Blogs -->
 
+
+<!-- Courses -->
+<section class="courses section" style="margin-top:-80px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3 col-12">
+                <div class="section-title bg">
+                    <h2>NUESTRO EGRESADOS</h2>
+                    <div class="icon"><i class="fa fa-clone"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12" style="margin:auto">
+                <!-- Single Course -->
+                <div class="single-course">
+                    <!-- Course Body -->
+                    <div class="course-body">
+                            <div id="chartContainer" style="height: 370px; width: 100%;"></div>  
+                      </div>
+                </div>
+                <!--/ End Single Course -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Button -->
+    <div class="button text-center mt-5">
+        <a href="<?php echo URL.'egresado' ?>" class="btn white primary">Ver Todos los Egresados</a>
+    </div>
+    <!--/ End Button -->
+</section>
+<!--/ End Courses --
+
 <?php require_once INCLUDES.'inc_footer.php'; ?>
 <!-- Evo Calendar -->
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
 <script src="<?php echo PLUGINS.'evo_calendar/js/evo-calendar.js' ?>"></script>
 <script>
     // initialize your calendar, once the page's DOM is ready

@@ -1,5 +1,7 @@
 <?php require_once INCLUDES.'inc_header.php'; ?>
+<div style="height:80px">
 
+</div>
 <!-- Breadcrumb -->
     <div class="breadcrumbs overlay" style="background-image:url('<?php echo IMAGES."breadcrumb-bg.jpg" ?>')">
         <div class="container">

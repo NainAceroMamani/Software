@@ -52,6 +52,35 @@
 
     <!-- Eduland Colors -->
     <link rel="stylesheet" href="<?php echo CSS.'colors/color1.css' ?>">
+    <script>
+    window.onload = function () {
+
+        var options = {
+            animationEnabled: true,  
+            axisX: {
+                valueFormatString: "YYYY"
+            },
+            axisY: {
+                title: "",
+                includeZero: false
+            },
+            data: [{
+                yValueFormatString: "#,###",
+                xValueFormatString: "YYYY",
+                type: "spline",
+                dataPoints: [
+                    { x: new Date(2015, 0), y: 24 },
+                    { x: new Date(2016, 0), y: 19 },
+                    { x: new Date(2017, 0), y: 21 },
+                    { x: new Date(2018, 0), y: 16 },
+                    { x: new Date(2019, 0), y: 17 },
+                ]
+            }]
+        };
+        $("#chartContainer").CanvasJSChart(options);
+
+        }
+    </script>
     <style>
         .calendar-year p {
             color: #fff;
@@ -61,7 +90,7 @@
 <body>
 
 <!-- Header -->
-<header class="header">
+<header class="header" style="position: fixed; top: 0; width: 100%;z-index: 999;">
         <!-- Header Inner -->
         <div class="header-inner overlay">
             <div class="container">
@@ -81,16 +110,17 @@
                                     <!-- Main Menu -->
                                     <ul id="nav" class="nav menu navbar-nav">
                                         <li class="active"><a href="<?php echo URL ?>"><i class="fa fa-home"></i>INICIO</a></li>
-                                        <li><a href="#"><i class="fa fa-clone"></i>ACADÉMICO</a>
+                                        <li><a href="#"><i class="fa fa-university"></i>ACADÉMICO</a>
                                             <ul class="dropdown">
                                                 <li><a href="<?php echo URL.'docente' ?>">Docentes</a></li>
+                                                <li><a href="<?php echo URL.'egresado' ?>">Egresados</a></li>
                                                 <li><a href="<?php echo URL.'plan_est' ?>">Plan de estudio</a></li>
                                                 <li><a href="<?php echo URL.'horario' ?>">Horarios</a></li>
                                                 <li><a href="<?php echo URL.'curso' ?>">Cursos</a></li>
                                                 <li><a href="<?php echo URL.'convenio' ?>">Convenios</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-clone"></i>INVESTIGACIÓN</a>
+                                        <li><a href="#"><i class="fa fa-graduation-cap"></i>INVESTIGACIÓN</a>
                                             <ul class="dropdown">
                                                 <li><a href="<?php echo URL.'lin_inv' ?>">Líneas de Investigación</a></li>
                                                 <li><a href="<?php echo URL.'rep_proy' ?>">Proyectos de Investigación</a></li>
@@ -106,21 +136,12 @@
                                                 <li><a href="<?php echo URL.'oficina' ?>">Oficinas Administrativas</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="<?php echo URL.'noticia' ?>"><i class="fa fa-address-book"></i>Noticias</a> </li>
-                                        <li><a href="https://www.ciistacna.com/2020/" target="black"><i class="fa fa-address-book"></i>Congreso</a> </li>
+                                        <li><a href="<?php echo URL.'noticia' ?>"><i class="fa fa-bullhorn"></i>Noticias</a> </li>
+                                        <li><a href="https://www.ciistacna.com/2020/" target="black"><i class="fa fa-suitcase"></i>Congreso</a> </li>
                                     </ul>
                                     <!-- End Main Menu -->
                                 </div>
                             </nav>
-                            <!-- Search Area -->
-                            <div class="search-area">
-                                <a href="#header" class="icon"><i class="fa fa-search"></i></a>
-                                <form class="search-form">
-                                    <input type="text" placeholder="ex: premium course" name="search">
-                                    <button value="search " type="submit"><i class="fa fa-search"></i></button>
-                                </form>
-                            </div>
-                            <!-- End Search Area-->
                         </div>
                     </div>
                 </div>
