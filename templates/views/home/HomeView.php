@@ -1,5 +1,47 @@
 <?php require_once INCLUDES.'inc_header.php'; ?>
 
+<!-- Modal Misión-->
+<div class="modal fade" id="modalMision" tabindex="-1" role="dialog" aria-labelledby="modalMisionTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">MISIÓN - ESIS </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <P><b>Formar profesionales con visión holística, científica y humanista en Ciencias Naturales, Formales, Sociales, Ciencias de la Computación, Informática y Sistemas, Electrónica, Investigación y Educación, que planteen soluciones integrales de carácter multidisciplinario y transdisciplinario, con el compromiso de contribuir al desarrollo económico, social y político de la Región y el País.</b></P>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal Misión -->
+
+<!-- Modal VISIÓN-->
+<div class="modal fade" id="modalVision" tabindex="-1" role="dialog" aria-labelledby="modalVisionTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">VISIÓN - ESIS </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <P><b>Ser la Escuela Académico Profesional acreditada, según normas nacionales e internacionales, basada en una enseñanza de calidad, innovadora y flexible, que forma Ingenieros en Informática y Sistemas generadoras de empresas, proactivos, agentes de cambio, con profundos sentido humanista, con un alto nivel de investigación científica e innovación tecnológica, con dominio de las Tecnologías de la Información y de las Telecomunicaciones, comprometidos con el desarrollo de la región y del País, bajo los principios éticos y morales.</b></P>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal VISIÓN -->
+
 <!-- Slider Area -->
 <section class="home-slider">
     <div class="slider-active">
@@ -11,12 +53,12 @@
                     <div class="col-lg-7 col-md-10 col-12">
                         <!-- Slider Content -->
                         <div class="slider-content">
-                            <h1 class="slider-title"><span>The Best University in the World!</span>Eduland Online <b>University</b></h1>
-                            <p class="slider-text">Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <h1 class="slider-title"><span>ESCUELA EN INFORMÁTICA Y SISTEMAS</span></h1>
+                            <p class="slider-text">La Escuela Académica Profesional de Ingeniería Informática y Sistemas, está comprometida con la formación de alto nivel científico, tecnológico y humanístico, para atender y solucionar los problemas y necesidades de la región y el país.</p>
                             <!-- Button -->
                             <div class="button">
-                                <a href="about.html" class="btn white">About Eduland</a>
-                                <a href="courses.html" class="btn white primary">Our Courses</a>
+                                <a href="javascript:void(0)" class="btn white" data-toggle="modal" data-target="#modalMision">MISIÓN</a>
+                                <a href="javascript:void(0)" class="btn white primary" data-toggle="modal" data-target="#modalVision">VISIÓN</a>
                             </div>
                             <!--/ End Button -->
                         </div>
@@ -36,6 +78,85 @@
         <div class="row">
             <div class="col-lg-6 offset-lg-3 col-12">
                 <div class="section-title bg">
+                    <h2>PERFIL DEL INGRESANTE</h2>
+                    <div class="icon"><i class="fa fa-clone"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+                <!-- Single Course -->
+                <div class="single-course">
+                    <!-- Course Body -->
+                    <div class="course-body">
+                        <h2 class="c-title">ACTITUDES</h2>
+                        <p style="font-size:16px">• Sensibilidad humana.</p>
+                        <p style="font-size:16px">• Actitud ética y moral frente a sus semejantes.</p>
+                        <p style="font-size:16px">• Ser una persona que se respeta y respeta a los demás, asumiendo responsabilidad por sus actos y omisiones.</p>
+                    </div>
+                </div>
+                <!--/ End Single Course -->
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-12">
+                <!-- Single Course -->
+                <div class="single-course">
+                    <!-- Course Body -->
+                    <div class="course-body">
+                        <h2 class="c-title">COGNITIVA PARA EL APRENDIZAJE</h2>
+                        <p style="font-size:16px">• Disciplina de estudio y alta capacidad intelectual.</p>
+                        <p style="font-size:16px">• Alta capacidad para el razonamiento y solución de problemas.</p>
+                        <p style="font-size:16px">• Capacidad de síntesis.•Coeficiente intelectual de 120 o más.</p>
+                        <p style="font-size:16px">• Afinidad pr las ciencias biológicas y sociales.</p>
+                        <p style="font-size:16px">• Comunicación fluida, tanto oral como escrita</p>
+                      </div>
+                </div>
+                <!--/ End Single Course -->
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <!-- Single Course -->
+                <div class="single-course">
+                    <!-- Course Body -->
+                    <div class="course-body">
+                        <h2 class="c-title">SOCIAL</h2>
+                        <p style="font-size:16px">• Compromiso social.</p>
+                        <p style="font-size:16px">• Identificación con su cultura.</p>
+                        <p style="font-size:16px">• Solidaridad frente al sufrimiento humano. • Esté dispuesto a lograr el bien común como su actitud ante la vida.</p>
+                        <p style="font-size:16px">• Tenga empatía en sus relaciones interpersonales y se muestre comprensivo con quienes están en dificultades.</p>
+                    </div>
+                </div>
+                <!--/ End Single Course -->
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-12">
+                <!-- Single Course -->
+                <div class="single-course">
+                    <!-- Course Body -->
+                    <div class="course-body">
+                        <h2 class="c-title">INQUIETUDES PARTICIPATIVAS</h2>
+                        <p style="font-size:16px">• Espíritu descubridor, investigador y afán por el conocimiento.</p>
+                        <p style="font-size:16px">• Cocación de servicio.</p>
+                        <p style="font-size:16px">• Espíritu altruista.</p>
+                        <p style="font-size:16px">• Madurez emocional correspondiente a su edad.</p>
+                        <p style="font-size:16px">• Aptitud y actitud para afrontar riesgos.</p>
+                        <p style="font-size:16px">• Disposición hacia el trabajo en equipo.</p>
+                      </div>
+                </div>
+                <!--/ End Single Course -->
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--/ End Courses -->
+
+<!-- Courses -->
+<section class="courses section" style="margin-top:-80px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3 col-12">
+                <div class="section-title bg">
                     <h2>Cursos <span>2020</span></h2>
                     <div class="icon"><i class="fa fa-clone"></i></div>
                 </div>
@@ -48,7 +169,7 @@
                     <!-- Course Head -->
                     <div class="course-head overlay">
                         <img src="<?php echo IMAGES.'courses/course1.jpg' ?>" alt="#">
-                        <a href="course-single.html" class="btn white primary">Ver sílabus</a>
+                        <a href="<?php echo UPLOADS.'silabos/Algoritmo_programacion_paralela.pdf' ?>" target="black" class="btn white primary">Ver sílabus</a>
                     </div>
                     <!-- Course Body -->
                     <div class="course-body">
@@ -59,7 +180,7 @@
                             </div>
                             <span class="price">I CICLO</span>
                         </div>
-                        <h4 class="c-title"><a href="course-single.html">Fundamentos de Programación</a></h4>
+                        <h4 class="c-title"><a href="<?php echo UPLOADS.'silabos/Algoritmo_programacion_paralela.pdf' ?>" target="black" >Fundamentos de Programación</a></h4>
                         <p>Fundamentos de Programación es una asignatura básica que permite crear programas que exhiban un comportamiento deseado. El proceso de escribir código requiere frecuentemente conocimientos en varias áreas distintas, además del dominio del lenguaje a utilizar, algoritmos especializados y lógica formal.</p>
                     </div>
                     <!-- Course Meta -->
@@ -79,7 +200,7 @@
                     <!-- Course Head -->
                     <div class="course-head overlay">
                         <img src="<?php echo IMAGES.'courses/course2.jpg' ?>" alt="#">
-                        <a href="course-single.html" class="btn white primary">Ver sílabus</a>
+                        <a href="<?php echo UPLOADS.'silabos/Analisis_sistemas.pdf' ?>" target="black"  class="btn white primary">Ver sílabus</a>
                     </div>
                     <!-- Course Body -->
                     <div class="course-body">
@@ -90,7 +211,7 @@
                             </div>
                             <span class="price">I CICLO</span>
                         </div>
-                        <h4 class="c-title"><a href="course-single.html">Programación Gráfica</a></h4>
+                        <h4 class="c-title"><a href="<?php echo UPLOADS.'silabos/Analisis_sistemas.pdf' ?>" target="black" >Programación Gráfica</a></h4>
                         <p>Rama de la ingeniería relacionada con la construcción de dispositivos,
                             que comprenden e interpretan correctamente objetos reales, escenas, o
                             características de una imagen, de la forma en que nuestros cerebros lo
@@ -113,7 +234,7 @@
                     <!-- Course Head -->
                     <div class="course-head overlay">
                         <img src="<?php echo IMAGES.'courses/course3.jpg' ?>" alt="#">
-                        <a href="course-single.html" class="btn white primary">Ver sílabus</a>
+                        <a  href="<?php echo UPLOADS.'silabos/Analisis_sistemas.pdf' ?>" target="black" class="btn white primary">Ver sílabus</a>
                     </div>
                     <!-- Course Body -->
                     <div class="course-body">
@@ -124,7 +245,7 @@
                             </div>
                             <span class="price">III CICLO</span>
                         </div>
-                        <h4 class="c-title"><a href="course-single.html">Algoritmos y Programación Paralela</a></h4>
+                        <h4 class="c-title"><a  href="<?php echo UPLOADS.'silabos/Analisis_sistemas.pdf' ?>" target="black">Algoritmos y Programación Paralela</a></h4>
                         <p>La computación paralela es el uso de múltiples recursos computacionales para resolver un problema.Se distingue de la computación secuencial en que varias operaciones pueden ocurrir simultáneamente.</p>
                     </div>
                     <!-- Course Meta -->
@@ -149,6 +270,21 @@
 </section>
 <!--/ End Courses -->
 
+<!-- Modal Organigrama -->
+<div class="modal fade organigrama-lg" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      <img src="<?php echo IMAGES.'organigrama.jpeg' ?>" alt="">
+    </div>
+  </div>
+</div>
+<!-- End Modal Organigrama -->
+
 <!-- Features -->
 <div class="features overlay section" data-stellar-background-ratio="0.5" style="background-image: url('<?php echo IMAGES."feature-bg.jpg" ?>');">
     <div class="container">
@@ -161,9 +297,9 @@
                         <i class="fa fa-clone"></i>
                     </div>
                     <div class="feature-content">
-                        <h4 class="f-title">Trending Course</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam suscipit fugiat sint totam soluta assumenda</p>
-                    </div>
+                        <a href="javascript:void(0)"><h4 class="f-title" data-toggle="modal" data-target="#modalMision">Misión</h4></a>
+                        <p><b>Misión de la Escuela en Informática Y Sistemas </b></p>
+                     </div>
                 </div>
                 <!--/ End Single Feature -->
             </div>
@@ -175,8 +311,8 @@
                         <i class="fa fa-book"></i>
                     </div>
                     <div class="feature-content">
-                        <h4 class="f-title">Books & Library</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam suscipit fugiat sint totam soluta assumenda</p>
+                        <a href="javascript:void(0)"><h4 class="f-title" data-toggle="modal" data-target="#modalVision">Visión</h4></a>
+                        <p><b>Visión de la Escuela en Informática Y Sistemas </b></p>
                     </div>
                 </div>
                 <!--/ End Single Feature -->
@@ -189,8 +325,8 @@
                         <i class="fa fa-institution"></i>
                     </div>
                     <div class="feature-content">
-                        <h4 class="f-title">Best Facility</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam suscipit fugiat sint totam soluta assumenda</p>
+                        <a href="<?php echo URL.'objetivo' ?>" target="black"><h4 class="f-title" >Objetivos</h4></a>
+                        <p><b>Objetivos de la Escuela en Informática Y Sistemas </b></p>
                     </div>
                 </div>
                 <!--/ End Single Feature -->
@@ -203,9 +339,9 @@
                         <i class="fa fa-users"></i>
                     </div>
                     <div class="feature-content">
-                        <h4 class="f-title">Certified Teachers</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam suscipit fugiat sint totam soluta assumenda</p>
-                    </div>
+                    <a href="javascript:void(0)"><h4 class="f-title" data-toggle="modal" data-target=".organigrama-lg">Organigrama</h4></a>
+                    <p><b>Organigrama de la Escuela en Informática Y Sistemas </b></p>
+                     </div>
                 </div>
                 <!--/ End Single Feature -->
             </div>
@@ -213,6 +349,8 @@
     </div>
 </div>
 <!--/ End Features -->
+
+
 
 <!-- Events -->
 <section class="events section">
@@ -319,15 +457,8 @@
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-12">
                     <div class="text-content">
-                        <h2>We <span>Focus on</span> Brands, Products & Campaigns</h2>
-                        <p>facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet
-                            dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla</p>
-                        <!-- CTA Button -->
-                        <div class="button">
-                            <a class="btn white" href="contact.html">Join With Now</a>
-                            <a class="btn white primary" href="courses.html">View Courses</a>
-                        </div>
-                        <!--/ End CTA Button -->
+                        <h2>ESCUELA PROFESIONAL DE INGENIERÍA EN INFORMÁTICA Y SISTEMAS</h2>
+                        <p style="font-size:20px">La Escuela Académica Profesional de Ingeniería Informática y Sistemas, está comprometida con la formación de alto nivel científico, tecnológico y humanístico, para atender y solucionar los problemas y necesidades de la región y el país.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">

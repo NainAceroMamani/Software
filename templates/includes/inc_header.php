@@ -86,8 +86,8 @@
                                                 <li><a href="<?php echo URL.'docente' ?>">Docentes</a></li>
                                                 <li><a href="teachers.html">Plan de estudio</a></li>
                                                 <li><a href="<?php echo URL.'horario' ?>">Horarios</a></li>
-                                                <li><a href="teachers.html">Sílabus</a></li>
-                                                <li><a href="teachers.html">Convenios</a></li>
+                                                <li><a href="<?php echo URL.'curso' ?>">Cursos</a></li>
+                                                <li><a href="<?php echo URL.'convenio' ?>">Convenios</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#"><i class="fa fa-clone"></i>INVESTIGACIÓN</a>
@@ -107,6 +107,7 @@
                                             </ul>
                                         </li>
                                         <li><a href="<?php echo URL.'noticia' ?>"><i class="fa fa-address-book"></i>Noticias</a> </li>
+                                        <li><a href="https://www.ciistacna.com/2020/" target="black"><i class="fa fa-address-book"></i>Congreso</a> </li>
                                     </ul>
                                     <!-- End Main Menu -->
                                 </div>

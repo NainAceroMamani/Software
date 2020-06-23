@@ -1,13 +1,13 @@
 	<!-- Footer -->
 	<footer class="footer section">
         <!-- Footer Top -->
-        <div class="footer-top overlay" style="background-image: url('<?php echo IMAGES."clients-bg.jpg" ?>');">
+        <div class="footer-top overlay" style="background-image: url('<?php echo IMAGES."slider/slider.jpg" ?>');">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-12">
                         <!-- About -->
                         <div class="single-widget about">
-                            <h2>About Eduland</h2>
+                            <h2>Contáctanos</h2>
                             <ul class="list">
                                 <li><i class="fa fa-phone"></i>Phone: +123 456-7890 </li>
                                 <li><i class="fa fa-envelope"></i>Email: <a href="mailto:info@youremail.com">Info@youremail.com</a></li>
@@ -28,13 +28,13 @@
                     <div class="col-lg-4 col-md-6 col-12">
                         <!-- Useful Links -->
                         <div class="single-widget list">
-                            <h2>Useful Links</h2>
+                            <h2>Enlaces</h2>
                             <ul>
-                                <li><i class="fa fa-angle-right"></i><a href="#">Home</a></li>
-                                <li><i class="fa fa-angle-right"></i><a href="#">About Eduland</a></li>
-                                <li><i class="fa fa-angle-right"></i><a href="#">Our Courses</a></li>
-                                <li><i class="fa fa-angle-right"></i><a href="#">Upcoming Events</a></li>
-                                <li><i class="fa fa-angle-right"></i><a href="#">Faq's</a></li>
+                                <li><i class="fa fa-angle-right"></i><a href="#">Inicio</a></li>
+                                <li><i class="fa fa-angle-right"></i><a href="#">Docentes</a></li>
+                                <li><i class="fa fa-angle-right"></i><a href="#">Horarios</a></li>
+                                <li><i class="fa fa-angle-right"></i><a href="#">Congreso</a></li>
+                                <li><i class="fa fa-angle-right"></i><a href="#">Noticias</a></li>
                             </ul>
                         </div>
                         <!--/ End Useful Links -->
@@ -42,21 +42,21 @@
                     <div class="col-lg-4 col-md-6 col-12">
                         <!-- Useful Links -->
                         <div class="single-widget opening-times">
-                            <h2>Opening Hourse</h2>
+                            <h2>Horario de Atención</h2>
                             <ul class="list">
-                                <li><span>Saturday - Sunday</span>
+                                <li><span>Lunes</span>
                                     <div class="value">09am - 05pm</div>
                                 </li>
-                                <li><span>Monday - Twisday</span>
-                                    <div class="value">10AM - 02PM</div>
+                                <li><span>Martes</span>
+                                    <div class="value">09am - 05pm</div>
                                 </li>
-                                <li><span>Widnesday</span>
-                                    <div class="value">10AM - 12PM</div>
+                                <li><span>Miercoles</span>
+                                    <div class="value">09am - 05pm</div>
                                 </li>
-                                <li><span>Thursday</span>
-                                    <div class="value">08AM - 05PM</div>
+                                <li><span>Jueves</span>
+                                    <div class="value">09am - 05pm</div>
                                 </li>
-                                <li><span>Friday</span>
+                                <li><span>Virenes</span>
                                     <div class="value off">closed</div>
                                 </li>
                             </ul>
