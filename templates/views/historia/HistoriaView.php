@@ -115,13 +115,6 @@ según Resolución RAU 128-2010. AU COG, se realiza la fusión de las Facultades
                 </div>
                 <!-- End Modal -->
 
-                <!-- Button -->
-                <div class="button text-center mt-5">
-                    <button type="button" class="btn white primary" data-toggle="modal" data-target=".bd-example-modal-lg">
-                        Calendario
-                    </button>
-                    <a href="<?php echo URL.'noticia' ?>" class="btn white">Mostrar más</a>
-                </div>
                 <!--/ End Button -->
             </div>
         </div>
