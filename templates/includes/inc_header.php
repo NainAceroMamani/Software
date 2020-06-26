@@ -113,6 +113,11 @@
                                     <!-- Main Menu -->
                                     <ul id="nav" class="nav menu navbar-nav">
                                         <li class="active"><a href="<?php echo URL ?>"><i class="fa fa-home"></i>INICIO</a></li>
+                                        <li><a href="#"><i class="fa fa-university"></i>NOSOTROS</a>
+                                            <ul class="dropdown">
+                                                <li><a href="<?php echo URL.'resena' ?>">Reseña Histórica</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a href="#"><i class="fa fa-university"></i>ACADÉMICO</a>
                                             <ul class="dropdown">
                                                 <li><a href="<?php echo URL.'docente' ?>">Docentes</a></li>

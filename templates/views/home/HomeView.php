@@ -60,8 +60,8 @@
                             <p class="slider-text">La Escuela Académica Profesional de Ingeniería Informática y Sistemas, está comprometida con la formación de alto nivel científico, tecnológico y humanístico, para atender y solucionar los problemas y necesidades de la región y el país.</p>
                             <!-- Button -->
                             <div class="button">
-                                <a href="javascript:void(0)" class="btn white" data-toggle="modal" data-target="#modalMision">MISIÓN</a>
-                                <a href="javascript:void(0)" class="btn white primary" data-toggle="modal" data-target="#modalVision">VISIÓN</a>
+                                <a href="javascript:void(0)" class="btn white" data-toggle="modal" data-target="#modalMision">Misión</a>
+                                <a href="javascript:void(0)" class="btn white primary" data-toggle="modal" data-target="#modalVision">Visión</a>
                             </div>
                             <!--/ End Button -->
                         </div>
