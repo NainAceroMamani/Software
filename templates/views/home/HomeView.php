@@ -292,7 +292,7 @@
 <div class="features overlay section" data-stellar-background-ratio="0.5" style="background-image: url('<?php echo IMAGES."feature-bg.jpg" ?>');">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-12">
+            <div class="col-lg-2 col-md-6 col-12" style="margin: auto">
                 <!-- Single Feature -->
                 <div class="single-feature">
                     <div class="icon-img">
@@ -306,7 +306,7 @@
                 </div>
                 <!--/ End Single Feature -->
             </div>
-            <div class="col-lg-3 col-md-6 col-12">
+            <div class="col-lg-2 col-md-6 col-12" style="margin: auto">
                 <!-- Single Feature -->
                 <div class="single-feature">
                     <div class="icon-img">
@@ -320,7 +320,7 @@
                 </div>
                 <!--/ End Single Feature -->
             </div>
-            <div class="col-lg-3 col-md-6 col-12">
+            <div class="col-lg-2 col-md-6 col-12" style="margin: auto">
                 <!-- Single Feature -->
                 <div class="single-feature">
                     <div class="icon-img">
@@ -334,7 +334,7 @@
                 </div>
                 <!--/ End Single Feature -->
             </div>
-            <div class="col-lg-3 col-md-6 col-12">
+            <div class="col-lg-2 col-md-6 col-12" style="margin: auto">
                 <!-- Single Feature -->
                 <div class="single-feature">
                     <div class="icon-img">
@@ -348,12 +348,24 @@
                 </div>
                 <!--/ End Single Feature -->
             </div>
+            <div class="col-lg-2 col-md-6 col-12" style="margin: auto">
+                <!-- Single Feature -->
+                <div class="single-feature">
+                    <div class="icon-img">
+                        <img src="<?php echo IMAGES.'feature3.jpg' ?>" alt="#">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <div class="feature-content">
+                    <a href="<?php echo URL.'historia' ?>" target="black"><h4 class="f-title" >Reseña Histórica</h4></a>
+                    <p><b>Revisa la historia de nuestra Escuela</b></p>
+                     </div>
+                </div>
+                <!--/ End Single Feature -->
+            </div>
         </div>
     </div>
 </div>
 <!--/ End Features -->
-
-
 
 <!-- Events -->
 <section class="events section">
