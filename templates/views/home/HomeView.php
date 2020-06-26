@@ -369,12 +369,12 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-5 col-12">
+            <div class="col-lg-4 col-12">
                 <div class="event-img">
-                    <img src="<?php echo IMAGES.'event-left.png' ?>" alt="#">
+                    <img src="<?php echo IMAGES.'portadas/portada5.png' ?>" alt="#">
                 </div>
             </div>
-            <div class="col-lg-7 col-12">
+            <div class="col-lg-8 col-12">
                 <div class="coming-event">
                     <!-- Single Event -->
                     <div class="single-event">
@@ -470,7 +470,7 @@
                 <div class="col-lg-4 col-md-4 col-12">
                     <!-- Cta Image -->
                     <div class="cta-image">
-                        <img src="<?php echo IMAGES.'girl-1.png' ?>" alt="#">
+                        <img src="<?php echo IMAGES.'portadas/portada2.png' ?>" alt="#">
                     </div>
                     <!--/ End Cta Image -->
                 </div>
@@ -493,7 +493,7 @@
         <div class="row">
             <div class="col-lg-5 col-12">
                 <div class="faq-image">
-                    <img src="<?php echo IMAGES.'faq.png' ?>" alt="#">
+                    <img src="<?php echo IMAGES.'portadas/portada3.png' ?>" alt="#">
                 </div>
             </div>
             <div class="col-lg-7 col-12">
@@ -655,19 +655,7 @@
             </div>
         </div>
         <div class="row">
-
-            <div class="col-lg-6 col-md-6 col-12">
-                <!-- Single Course -->
-                <div class="single-course">
-                    <!-- Course Body -->
-                    <div class="course-body">
-                    <img src="<?php echo IMAGES.'grafica.PNG' ?>" alt="">
-                      </div>
-                </div>
-                <!--/ End Single Course -->
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-12">
+            <div class="col-lg-6 col-md-6 col-12 " style="margin:auto">
                 <!-- Single Course -->
                 <div class="single-course">
                     <!-- Course Body -->

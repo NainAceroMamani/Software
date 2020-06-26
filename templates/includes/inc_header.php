@@ -125,7 +125,7 @@
                                                 <li><a href="<?php echo URL.'plan_est' ?>">Plan de estudio</a></li>
                                                 <li><a href="<?php echo URL.'horario' ?>">Horarios</a></li>
                                                 <li><a href="<?php echo URL.'curso' ?>">Cursos</a></li>
-                                                <li><a href="<?php echo URL.'convenio' ?>">Convenios</a></li>
+                                                <li><a href="<?php echo URL.'convenio' ?>">Pasantias</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#"><i class="fa fa-graduation-cap"></i>INVESTIGACIÓN</a>
