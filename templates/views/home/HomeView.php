@@ -301,7 +301,7 @@
                     </div>
                     <div class="feature-content">
                         <a href="javascript:void(0)"><h4 class="f-title" data-toggle="modal" data-target="#modalMision">Misión</h4></a>
-                        <p><b>Misión de la Escuela en Informática Y Sistemas </b></p>
+                        <p><b>Conoce nuestra Misión</b></p>
                      </div>
                 </div>
                 <!--/ End Single Feature -->
@@ -315,7 +315,7 @@
                     </div>
                     <div class="feature-content">
                         <a href="javascript:void(0)"><h4 class="f-title" data-toggle="modal" data-target="#modalVision">Visión</h4></a>
-                        <p><b>Visión de la Escuela en Informática Y Sistemas </b></p>
+                        <p><b>Conoce nuestra Visión</b></p>
                     </div>
                 </div>
                 <!--/ End Single Feature -->
@@ -329,7 +329,7 @@
                     </div>
                     <div class="feature-content">
                         <a href="<?php echo URL.'objetivo' ?>" target="black"><h4 class="f-title" >Objetivos</h4></a>
-                        <p><b>Objetivos de la Escuela en Informática Y Sistemas </b></p>
+                        <p><b>Revisa nuestros Objetivos</b></p>
                     </div>
                 </div>
                 <!--/ End Single Feature -->
@@ -343,7 +343,7 @@
                     </div>
                     <div class="feature-content">
                     <a href="javascript:void(0)"><h4 class="f-title" data-toggle="modal" data-target=".organigrama-lg">Organigrama</h4></a>
-                    <p><b>Organigrama de la Escuela en Informática Y Sistemas </b></p>
+                    <p><b>Conoce nuestro Organigrama</b></p>
                      </div>
                 </div>
                 <!--/ End Single Feature -->
@@ -357,7 +357,7 @@
                     </div>
                     <div class="feature-content">
                     <a href="<?php echo URL.'historia' ?>" target="black"><h4 class="f-title" >Reseña Histórica</h4></a>
-                    <p><b>Revisa la historia de nuestra Escuela</b></p>
+                    <p><b>Revisa Nuestra Historia</b></p>
                      </div>
                 </div>
                 <!--/ End Single Feature -->
@@ -395,7 +395,20 @@
                         </div>
                         <div class="event-content">
                             <h3 class="event-title"><a href="<?php echo URL.'noticia' ?>">Bienvenida a los cachimbos 2020</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo</p>
+                            <p>La tradicional fiesta de bienvenida a los nuevos integrantes de nuestra Familia te espera. ¡Prepárate! </p>
+                            <span class="entry-date-time"><i class="fa fa-clock-o" aria-hidden="true"></i> 04:30 PM - 8:30 PM </span>
+                        </div>
+                    </div>
+                    <!-- End Single Event -->
+
+                    <!-- Single Event -->
+                    <div class="single-event">
+                        <div class="event-date">
+                            <p>30<span>Junio</span></p>
+                        </div>
+                        <div class="event-content">
+                            <h3 class="event-title"><a href="<?php echo URL.'noticia' ?>"></a></h3>
+                            <p>La tradicional fiesta de bienvenida a los nuevos integrantes de nuestra Familia te espera. ¡Prepárate! </p>
                             <span class="entry-date-time"><i class="fa fa-clock-o" aria-hidden="true"></i> 04:30 PM - 8:30 PM </span>
                         </div>
                     </div>
@@ -408,20 +421,7 @@
                         </div>
                         <div class="event-content">
                             <h3 class="event-title"><a href="<?php echo URL.'noticia' ?>">Bienvenida a los cachimbos 2020</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo</p>
-                            <span class="entry-date-time"><i class="fa fa-clock-o" aria-hidden="true"></i> 04:30 PM - 8:30 PM </span>
-                        </div>
-                    </div>
-                    <!-- End Single Event -->
-
-                    <!-- Single Event -->
-                    <div class="single-event">
-                        <div class="event-date">
-                            <p>30<span>Junio</span></p>
-                        </div>
-                        <div class="event-content">
-                            <h3 class="event-title"><a href="<?php echo URL.'noticia' ?>">Bienvenida a los cachimbos 2020</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo</p>
+                            <p>La tradicional fiesta de bienvenida a los nuevos integrantes de nuestra Familia te espera. ¡Prepárate! </p>
                             <span class="entry-date-time"><i class="fa fa-clock-o" aria-hidden="true"></i> 04:30 PM - 8:30 PM </span>
                         </div>
                     </div>
